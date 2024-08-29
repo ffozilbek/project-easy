@@ -389,6 +389,20 @@ main {
     margin-bottom: 35px;
 }
 
+.album__list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.album__item {
+    width: 25%;
+}
+
+.album__item-img {
+    width: 100%;
+    display: block;
+}
 
 /* MEDIA QUERY */
 @media only screen and (max-width: 848px) {
@@ -491,7 +505,9 @@ main {
         width: 100%;
     }
 
-
+    .album__item {
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 376px) {
